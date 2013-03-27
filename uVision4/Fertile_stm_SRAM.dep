@@ -64,7 +64,7 @@ I (..\user\Driver/gpio.h)(0x514FE909)
 I (..\user\Cfg/Version.h)(0x515128BF)
 I (..\user\Task/uart.h)(0x514FF146)
 I (..\user\Task/spi.h)(0x51516DD9)
-F (..\user\Arch\stm32f10x_target.c)(0x51516D13)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 -Otime --apcs=interwork --split_sections -I..\library\inc -I..\os -I..\user -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x -DVECT_TAB_FLASH -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER -o "..\out\stm32f10x_target.o" --omf_browse "..\out\stm32f10x_target.crf" --depend "..\out\stm32f10x_target.d")
+F (..\user\Arch\stm32f10x_target.c)(0x51526752)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 -Otime --apcs=interwork --split_sections -I..\library\inc -I..\os -I..\user -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x -DVECT_TAB_FLASH -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER -o "..\out\stm32f10x_target.o" --omf_browse "..\out\stm32f10x_target.crf" --depend "..\out\stm32f10x_target.d")
 I (..\user\Cfg/config.h)(0x51516B0E)
 I (..\library\inc\stm32f10x_lib.h)(0x4FC30CE0)
 I (..\library\inc\stm32f10x_map.h)(0x4FC30CE0)
@@ -98,8 +98,7 @@ I (..\user\Driver/gpio.h)(0x514FE909)
 I (..\user\Cfg/Version.h)(0x515128BF)
 I (..\user\Task/uart.h)(0x514FF146)
 F (..\user\Arch\cortexm3_macro.s)(0x51513F6B)(--cpu Cortex-M3 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1" -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x --list ".\List\cortexm3_macro.lst" --xref -o "..\out\cortexm3_macro.o" --depend "..\out\cortexm3_macro.d")
-F (..\user\Arch\stm32f10x_hd.s)(0x51513F99)()
-F (..\user\Arch\startup_stm32f10x_ld.s)(0x51513FA3)(--cpu Cortex-M3 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1" -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x --list ".\List\startup_stm32f10x_ld.lst" --xref -o "..\out\startup_stm32f10x_ld.o" --depend "..\out\startup_stm32f10x_ld.d")
+F (..\user\Arch\stm32f10x_md.s)(0x4DF86201)(--cpu Cortex-M3 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1" -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x --list ".\List\stm32f10x_md.lst" --xref -o "..\out\stm32f10x_md.o" --depend "..\out\stm32f10x_md.d")
 F (..\library\src\stm32f10x_adc.c)(0x4FC30CE2)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 -Otime --apcs=interwork --split_sections -I..\library\inc -I..\os -I..\user -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x -DVECT_TAB_FLASH -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER -o "..\out\stm32f10x_adc.o" --omf_browse "..\out\stm32f10x_adc.crf" --depend "..\out\stm32f10x_adc.d")
 I (..\library\inc\stm32f10x_adc.h)(0x4FC30CE0)
 I (..\library\inc\stm32f10x_map.h)(0x4FC30CE0)
@@ -360,7 +359,7 @@ I (..\library\inc\stm32f10x_usart.h)(0x4FC30CE0)
 I (..\library\inc\stm32f10x_wwdg.h)(0x4FC30CE0)
 I (..\user\Driver/gpio.h)(0x514FE909)
 I (..\user\Cfg/Version.h)(0x515128BF)
-F (..\user\Task\spi.c)(0x515170F2)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 -Otime --apcs=interwork --split_sections -I..\library\inc -I..\os -I..\user -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x -DVECT_TAB_FLASH -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER -o "..\out\spi.o" --omf_browse "..\out\spi.crf" --depend "..\out\spi.d")
+F (..\user\Task\spi.c)(0x515265F5)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 -Otime --apcs=interwork --split_sections -I..\library\inc -I..\os -I..\user -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x -DVECT_TAB_FLASH -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER -o "..\out\spi.o" --omf_browse "..\out\spi.crf" --depend "..\out\spi.d")
 I (..\user\Task/spi.h)(0x51516DD9)
 I (..\user\Cfg/config.h)(0x51516B0E)
 I (..\library\inc\stm32f10x_lib.h)(0x4FC30CE0)

@@ -145,11 +145,11 @@ void spi_slave_write(SPI_TypeDef *SPIx,u16 txd)
 
 
 
-
+//MAY BE PROBLEM between last compare(i & uart_rx->cnt) and NVIC_SETPRIMASK();
 void check_com_2_spi(__puart uart_rx)
 {
 	u8 i = 0;
-	if(!uart_rx->cnt){
+	if(uart_rx->cnt){
 		for(i=0;i<uart_rx->cnt;i++)
 			spi_slave_write(SPI2,uart_rx->buf[i]|uart_rx->index);
 //		OS_ENTER_CRITICAL(  );      /* Tell uC/OS-II that we are starting an ISR */

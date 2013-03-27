@@ -200,9 +200,9 @@ int SystemInit( void )   //SystemInit
     /* NVIC configuration */
     NVIC_Configuration(  );
 	
-		DMA_Configuration();
+//		DMA_Configuration();
 
-    GPIO_Config(  );
+//    GPIO_Config(  );
     
     return 0;
 
